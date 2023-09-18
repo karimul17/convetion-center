@@ -1,0 +1,79 @@
+
+/* media quaru start */
+@media (min-width: 390px) { 
+    .accordion{
+       flex-direction: column;
+    }
+    .accordion-img{
+        max-width: 50%;
+    }
+}
+/* media quaru END */
+
+
+.carousel-item img {
+    height: 70vh;
+    width: 100%;
+}
+
+.icone {
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: #0002FF;
+    color: #5243C2;
+    margin-right: 5px;
+}
+
+/* buttom start */
+
+.button {
+    padding: 10px;
+    margin: 0 30px 10px 10px;
+    border-radius: 24px;
+
+    background: #e7cede;
+    color: #3F87F5;
+    text-align: center;
+    border-style: none;
+}
+
+.button-tex {
+    color: #3F87F5;
+    font-size: 15px;
+    font-weight: 700;
+}
+/* buttom end */
+
+/* card start */
+.border {
+    border-radius: 26px;
+    background: #3F87F5;
+    box-shadow: 0px 42px 34px 0px rgba(63, 135, 245, 0.25);
+    border-style: none;
+}
+.card-text{
+    font-size: 15px;
+    text-align: center;
+   
+}
+.card-1{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.13);
+}
+/* card end */
+
+/* accrodin start */
+.accordion-1{
+    display: flex;
+}
+/* accrodin end */
+footer{
+  
+    background-color: #5243C2;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: #FFF;
+}
